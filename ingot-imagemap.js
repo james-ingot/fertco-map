@@ -174,7 +174,7 @@ function _main() {
 
 function parseCSV(_next) {
 
-    Papa.parse("https://dl.dropbox.com/s/k08z2pxwl3xv9om/Fertco_Data-List.csv?dl=0",
+    Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vRRs-IAYHah2I6dzMxn4XcXmlqqA5FaUQ8oJYkHU5ZiwzgBCEpkJwniSrx4vR2jsE-xxUSxRV9EK4rp/pub?gid=150723649&single=true&output=csv",
         {
             download: true,
             header: true,
